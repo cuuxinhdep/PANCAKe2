@@ -206,10 +206,18 @@
     text-align: center;
 }
 
+#wrapper .body-content h2{
+    font-family:monospace;
+    font-weight: 700;
+    font-style: oblique;
+}
+
 #wrapper .body-content p {
     margin-top: 10px;
     text-align: left;
     margin: 0px 50px;
+    /* font-weight: 500; */
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 #wrapper .spacer-inner-1 {
@@ -359,4 +367,52 @@
     top: 100px;
     right:144px;
     font-size: 22px;
+}
+
+.block-3 {
+    background-image: url(../assets/about1.jpg);
+    width: 658px;
+    height: 553px;
+    background-size: cover;
+    background-position: 50% 50%;
+    flex-wrap: wrap;
+    position: relative;
+    /* margin-right: 1250px; */
+}
+
+
+.background-content {
+    position: absolute;
+    display: flex;
+    width: 602px;
+    height: 450px;
+    background-color: #f5f4f0;
+    box-shadow: #0000001a 0px 2px 3px 0px;
+    text-align: center;
+    align-items: center;
+    padding: 50px 80px;
+    margin-left: 640px;
+    bottom: 55px;
+}
+
+.block-4 {
+    background-image: url(../assets/abou2.avif);
+    width: 658px;
+    height: 553px;
+    background-size: cover;
+    background-position: 50% 50%;
+    flex-wrap: wrap;
+    position: relative;
+    /* margin-right: 1250px; */
+}
+
+.block-5 {
+    background-image: url(../assets/ABOUT3.jpg);
+    width: 658px;
+    height: 553px;
+    background-size: cover;
+    background-position: 50% 50%;
+    flex-wrap: wrap;
+    position: relative;
+    /* margin-right: 1250px; */
 }
