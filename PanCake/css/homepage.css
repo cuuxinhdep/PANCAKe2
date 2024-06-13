@@ -217,7 +217,7 @@
 }
 
 #wrapper .image img {
-    width: 458px;
+    width: 410px;
     height: 240px;
     /* line-height: 220px; */
     /* background: shadow(20px); */
@@ -231,5 +231,132 @@
 
 #wrapper .image .col-4 {
     height: 242px;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
+    /* margin-right: 2px; */
+}
+
+#wrapper .image .item-1{
+    position: relative;
+}
+
+#wrapper .image .item-1 p {
+    position: absolute;
+    /* top: 10px; */
+    z-index: 10;
+    color: #fcfcfc;
+    top: 100px;
+    right:164px;
+    font-size: 22px;
+}
+
+#wrapper .image .item-2{
+    position: relative;
+}
+
+#wrapper .image .item-2 p {
+    position: absolute;
+    /* top: 10px; */
+    z-index: 10;
+    color: #fcfcfc;
+    top: 100px;
+    right:120px;
+    font-size: 22px;
+}
+
+#wrapper .image .item-3{
+    position: relative;
+}
+
+#wrapper .image .item-3 p {
+    position: absolute;
+    /* top: 10px; */
+    z-index: 10;
+    color: #fcfcfc;
+    top: 100px;
+    right:140px;
+    font-size: 22px;
+}
+
+#wrapper .image .item-4{
+    position: relative;
+}
+
+#wrapper .image .item-4 p {
+    position: absolute;
+    /* top: 10px; */
+    z-index: 10;
+    color: #fcfcfc;
+    top: 100px;
+    right:164px;
+    font-size: 22px;
+}
+
+#wrapper .image .item-5{
+    position: relative;
+}
+
+#wrapper .image .item-5 p {
+    position: absolute;
+    /* top: 10px; */
+    z-index: 10;
+    color: #fcfcfc;
+    top: 100px;
+    right:164px;
+    font-size: 22px;
+}
+
+#wrapper .image .item-6{
+    position: relative;
+}
+
+#wrapper .image .item-6 p {
+    position: absolute;
+    /* top: 10px; */
+    z-index: 10;
+    color: #fcfcfc;
+    top: 100px;
+    right:144px;
+    font-size: 22px;
+}
+
+#wrapper .image .item-7{
+    position: relative;
+}
+
+#wrapper .image .item-7 p {
+    position: absolute;
+    /* top: 10px; */
+    z-index: 10;
+    color: #fcfcfc;
+    top: 100px;
+    right:144px;
+    font-size: 22px;
+}
+
+#wrapper .image .item-8{
+    position: relative;
+}
+
+#wrapper .image .item-8 p {
+    position: absolute;
+    /* top: 10px; */
+    z-index: 10;
+    color: #fcfcfc;
+    top: 100px;
+    right:144px;
+    font-size: 22px;
+}
+
+#wrapper .image .item-9{
+    position: relative;
+}
+
+#wrapper .image .item-9 p {
+    position: absolute;
+    /* top: 10px; */
+    z-index: 10;
+    color: #fcfcfc;
+    top: 100px;
+    right:144px;
+    font-size: 22px;
 }
