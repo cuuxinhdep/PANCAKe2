@@ -15,25 +15,39 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light shadow navbar-custom bg-custom mb-4 fixed-top" id="navbar">
+    <nav class="navbar navbar-light navbar-expand-lg shadow navbar-custom bg-custom mb-4 fixed-top" id="navbar">
         <div class="container-fluid">
-            <div class="col-md-4">
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbarExample-expand-lg" aria-controls="offcanvasNavbarExample-expand-lg">
-                    <span class="navbar-toggler-icon" data-bs-target="#offcanvasNavbarExample-expand-lg"></span>
-                </button>
+            <a class="navbar-brand fw-bold" href="homepage.html">PANCAKE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbarExample-expand-lg" aria-controls="offcanvasNavbarExample-expand-lg">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="au-bou.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="STORE.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Hiring.html">Hiring</a>
+                    </li>
+                </ul>
             </div>
-            <a class="navbar-brand fw-bold col-md-4 text-center" href="homepage.html">PANCAKE</a>
-            <div class="col-md-4 d-flex justify-content-end">
+            <div class="order-3 d-none d-lg-flex justify-content-end">
                 <a href="#" class="btn btn-custom">BOOK NOW</a>
             </div>
-            <div class="offcanvas offcanvas-start bg-custom" data-bs-hideresize="true" tabindex="-1"
-                id="offcanvasNavbarExample-expand-lg" aria-labelledby="offcanvasNavbarExample-expand-lg">
+            <div class="offcanvas offcanvas-start bg-custom" tabindex="-1" id="offcanvasNavbarExample-expand-lg"
+                aria-labelledby="offcanvasNavbarExample-expand-lg">
                 <div class="offcanvas-header">
                     <h3 class="offcanvas-title" id="offcanvasLabel" style="color: black;">LINKS</h3>
                 </div>
                 <div class="offcanvas-body bg-custom">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
                         </li>
@@ -46,22 +60,28 @@
                         <li class="nav-item">
                             <a class="nav-link" href="Hiring.html">Hiring</a>
                         </li>
+                        <li class="nav-item d-lg-none">
+                            <a href="#" class="btn btn-custom w-100">BOOK NOW</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </nav>
-    <div class="row bg-custom-box align-item-center">
-        <div class="col-md-4">
-            <div class="contact-text">
-                <h4>Contact Us</h4>
-                <h2>LET WE HELP YOU</h2>
-                <p class="lead">For commonly asked questions, please visit:</p>
-                <a href="#" class="btn btn-custom">FAQ</a>
+    </nav>    
+    
+    <div class="container-fluid">
+        <div class="row bg-custom-box align-item-center">
+            <div class="col-md-4">
+                <div class="contact-text">
+                    <h4>Contact Us</h4>
+                    <h2>LET WE HELP YOU</h2>
+                    <p class="lead">For commonly asked questions, please visit:</p>
+                    <a href="#" class="btn btn-custom">FAQ</a>
+                </div>
             </div>
-        </div>
-        <div class="col-md-8">
-            <img src="assets/contactus/zgmnjhj6bt0b1.jpg" alt="">
+            <div class="col-md-8 px-0">
+                <img src="assets/contactus/zgmnjhj6bt0b1.jpg" alt="">
+            </div>
         </div>
     </div>
     <div class="col-12 py-5"></div>
