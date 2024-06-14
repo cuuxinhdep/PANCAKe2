@@ -116,5 +116,6 @@
 .btn-primary {
     --bs-btn-bg: black;
     --bs-btn-hover-bg: white;
-    --bs-btn-hover-color: black ;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-font-size: 2px;
 }
