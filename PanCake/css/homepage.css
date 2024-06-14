@@ -117,7 +117,7 @@
     color: #fcfcfc;
 }
 
-.container-fluid .header-content .fuction-box{
+/* .container-fluid .header-content .fuction-box{
     background-color: #fcfcfc;
     display: flex;
     justify-content: center;
@@ -127,7 +127,7 @@
     margin-left: 5px;
     margin-top: 10px;
     align-items: center;
-}
+} */
 
 .container-fluid .header-content .fuction-box a{
     text-decoration: none;
@@ -136,17 +136,40 @@
     /* height: 40px; */
 }
 
-.container-fluid .header-content .fuction-box:hover  {
-    background-color: #fcfcfc;
-    transition: 0.4s ease-in-out;
+.fuction-box button{
+    margin-right: 4px;
+    /* margin-left: 5px; */
+    margin-top: 10px;
+    width: 247px;
+    height: 40px;
 }
 
-.container-fluid .header-content .color-event {
-    background-color: #0b1f50;
+.btn-rev{
+border: none;
+outline: none;
 }
 
-.container-fluid .header-content .color-party{
+.btn-rev:hover{
+    background-color: black;
+    color: #fcfcfc;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-party {
+    border: none;
+    outline: none;
     background-color: #ec4156;
+    color: #fcfcfc;
+}
+
+.btn-party:hover{
+    background-color: #fcfcfc;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.color-text {
+    background-color: #0b1f50;
 }
 
 .container-fluid .header-content .color a {
@@ -369,6 +392,19 @@
     font-size: 22px;
 }
 
+.about-btn{
+    padding: 5px 30px;
+    background-color: #f5f4f0;
+    color: black;
+    border: 1px solid black;
+}
+
+.about-btn:hover{
+    background-color: black;
+    color: #fcfcfc;
+    transition: 0.4s ease-in-out;
+}
+
 .block-3 {
     background-image: url(../assets/about1.jpg);
     width: 658px;
@@ -396,14 +432,57 @@
 }
 
 .block-4 {
+    /* display: flex; */
+    /* background-image: url(../assets/abou2.avif); */
+    width: 1239px;
+    height: 553px;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-origin: border-box; */
+    /* background-position: 87% 89px; */
+    /* flex-wrap: wrap; */
+    /* margin-right: 1250px; */
+}
+
+.block-4 .for-page{
+    display: flex;
+    position: relative;
+
+}
+
+.block-4 .page-1 {
+    width: 658px;
+    height: 553px;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* position: absolute; */
+    /* background-color: red; */
+}
+
+.block-4 .page-2 {
     background-image: url(../assets/abou2.avif);
     width: 658px;
     height: 553px;
     background-size: cover;
-    background-position: 50% 50%;
-    flex-wrap: wrap;
-    position: relative;
-    /* margin-right: 1250px; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-origin: border-box;
+    /* background-position: 87% 89px; */
+}
+
+.for-page .background-content-block-4 {
+    position: absolute;
+    display: flex;
+    width: 602px;
+    height: 450px;
+    background-color: #f5f4f0;
+    box-shadow: #0000001a 0px 2px 3px 0px;
+    text-align: center;
+    align-items: center;
+    padding: 50px 80px;
+    margin-left: 35px;
+    bottom: 55px;
 }
 
 .block-5 {
@@ -415,4 +494,66 @@
     flex-wrap: wrap;
     position: relative;
     /* margin-right: 1250px; */
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.contact-text p{
+    margin: 2rem;
+}
+.contact-text h4{
+    margin-bottom: 1rem;
+}
+.contact-text h2{
+    margin-bottom: 0.5rem;
+}
+.btn-custom {
+    background-color: #F5F4F0;
+    color: #000000;
+    border: 1px solid #000000;
+} 
+.btn-custom:hover {
+    background-color: black;
+    color: #F5F4F0;
+}
+.col-4{
+    padding-left: 0;
+}
+.no-border {
+    border-radius: 0 !important;
+}
+.social-links a{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.social-links i {
+    color: black;
+}
+.social-links .social-text {
+    color: #000000;
+    margin-left: 10px;
+}
+.form-select,
+.form-control {
+    background-color: transparent;
+    box-shadow: none;
+    transition: border-color 0.3s; /* Thêm chuyển đổi mượt mà */
+}
+.form-select:focus,
+.form-control:focus {
+    border-color: black; /* Thay đổi viền thành màu đen khi focus */
+    box-shadow: none; /* Loại bỏ bóng của Bootstrap */
+}
+.invalid {
+    border-color: red !important;
+}
+
+.bg-custom {
+    background-color: #F5F4F0 !important;
 }
