@@ -253,11 +253,11 @@ outline: none;
     /* line-height: 220px; */
     /* background: shadow(20px); */
     filter: brightness(50%);
+    transition: 0.3s ease-in-out;
 }
 
 #wrapper .image img:hover {
     filter: brightness(100%);
-    transition: 0.3s ease-in-out;
 }
 
 #wrapper .image .col-4 {
@@ -397,12 +397,12 @@ outline: none;
     background-color: #f5f4f0;
     color: black;
     border: 1px solid black;
+    transition: 0.4s ease-in-out;
 }
 
 .about-btn:hover{
     background-color: black;
     color: #fcfcfc;
-    transition: 0.4s ease-in-out;
 }
 
 .block-3 {
