@@ -416,6 +416,17 @@ outline: none;
     /* margin-right: 1250px; */
 }
 
+.block-6 {
+    background-image: url(../assets/party.jpg);
+    width: 658px;
+    height: 553px;
+    background-size: cover;
+    background-position: 50% 50%;
+    flex-wrap: wrap;
+    position: relative;
+    /* margin-right: 1250px; */
+}
+
 
 .background-content {
     position: absolute;
@@ -432,17 +443,8 @@ outline: none;
 }
 
 .block-4 {
-    /* display: flex; */
-    /* background-image: url(../assets/abou2.avif); */
     width: 1239px;
     height: 553px;
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    /* background-position: center center; */
-    /* background-origin: border-box; */
-    /* background-position: 87% 89px; */
-    /* flex-wrap: wrap; */
-    /* margin-right: 1250px; */
 }
 
 .block-4 .for-page{
@@ -462,6 +464,17 @@ outline: none;
 
 .block-4 .page-2 {
     background-image: url(../assets/abou2.avif);
+    width: 658px;
+    height: 553px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-origin: border-box;
+    /* background-position: 87% 89px; */
+}
+
+.block-4 .page-2-2 {
+    background-image: url(../assets/card.webp);
     width: 658px;
     height: 553px;
     background-size: cover;

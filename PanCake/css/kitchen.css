@@ -1,0 +1,134 @@
+.elementor-widget-container {
+    text-align: center;
+    margin: 30px;
+}
+.elementor-headline {
+    font-size: 30px;
+    font-family: Ano;
+}
+.elementor-headline-text-wrapper {
+    display: inline-block;
+    position: relative;
+}
+.elementor-headline-dynamic-wrapper svg {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    overflow: visible;
+    fill: none;
+    stroke: #d14900;
+    stroke-width: 16px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.introduction{
+  margin-top: 5%;
+  background-color: #f5f4f0; 
+}
+.intro-text{
+  width: 100%;
+  font-family: Ano Regular;
+  padding: 40px 30px;
+  margin-top: 5%;
+}
+.heading-small h3{
+  text-align: center;
+  margin-top: 5%;
+}
+.heading-small h4{
+  font-size: 15px;
+  text-align: center;
+  margin-top: 8%;
+}
+.text{
+  margin-top: 10%;
+  font-family: Ano Regular;
+}
+.section2-text, .section3-text, .section4-text {
+    position: relative; 
+    overflow: hidden; 
+    margin-top: 5%;
+}
+.text-block {
+    position: absolute; 
+    z-index: 2; 
+    background-color: #f5f4f0; 
+    padding: 90px 40px 90px 50px; 
+    width: 45%; 
+    left:55%;
+    margin: 4% auto;
+}
+.text-block1{
+    position: absolute; 
+    z-index: 2; 
+    background-color: #f5f4f0; 
+    padding: 90px 40px 90px 50px; 
+    width: 45%; 
+    right:55%;
+    margin: 4% auto;  
+}
+.venue-select-reserve{
+  text-align: center;
+  margin: 25px auto 15px auto;
+  display: flex;
+  font-family: Ano;
+  font-size: 15px;
+}
+.venue-select{
+  margin-right: 2%;
+}
+#venue-event{
+  padding: 8px;
+  width: 220px;
+  background-color: #f5f4f0;
+  border: solid 1.3px;
+  max-width: 400px;
+}
+@media (max-width: 600px) {
+    #venue-event {
+        width: 70%;
+        max-width: 500px;
+    }
+    #btn-party{
+        width: 70%;
+        max-width: 500px;
+    }
+}
+.btn-party{
+  padding: 6px;
+  width: 220px;
+  background-color: #f5f4f0;
+  border: solid 1.3px;
+  max-width: 150px;
+  cursor: pointer;
+}
+.btn-party:hover{
+  background-color: #000000;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.image img {
+    display: block;
+    width: 100%;
+    height: auto; 
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+@media (max-width: 900px) {
+    .text-block {
+        position: static;
+        margin: -50px 40px 10px 40px;
+        width: auto;
+        z-index: 2;
+    }
+    .text-block1{
+       position: static;
+        margin: -50px 40px 10px 40px;
+        width: auto;
+        z-index: 2;
+    }
+}

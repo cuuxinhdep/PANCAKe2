@@ -95,6 +95,7 @@
 }
 
 
+
 .booking {
     display: flex;
 }
@@ -158,13 +159,16 @@ input[type="number"] {
     margin-bottom: 10px;
 }
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+#bookingForm button {
+    background-color: #000;
+    color: #fcfcfc;
+    padding: 10px 50px;
+    width: 460px;
     border: none;
     cursor: pointer;
-    text-align: center;
+    /* text-align: center; */
+    margin-top: 15px;
+
 }
 
 #message {
