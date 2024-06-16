@@ -113,7 +113,7 @@
     
 }
 .containes{
-    /* align-items: center; */
+    text-align: center;
 }
 .containes h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -134,6 +134,9 @@
 .col-md-3 a{
     color: black;
     
+}
+.row{
+    padding: 10px;
 }
     
 
