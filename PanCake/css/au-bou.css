@@ -1,12 +1,4 @@
-.navbar {
-	background-color:black !important;
-}
-.navbar li a {
-    color: black !important;
-}
-.navbar li a:hover {
-    color: red !important;
-}
+
 .row .col-lg-8, .col-lg-4, .col-lg-5, .col-lg-7 {
     padding-bottom: 150px !important;
 }
@@ -15,15 +7,7 @@
     margin: 0 90px 40px 90px !important;
     
 }
-.duoi {
-    background: black;
-    padding: 30px 20px 30px 20px;
-    color: white;
-    font-style: italic;
-}
-.navbar-branch {
-    
-}
+
 .bg-custom {
     background-color: #F5F4F0 !important;
 }
@@ -119,3 +103,7 @@
 .invalid {
     border-color: red !important;
 }
+
+@media (min-width: 992px) {
+    .order-3 {
+        order: 3 !important;
