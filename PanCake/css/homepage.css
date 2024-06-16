@@ -17,11 +17,12 @@
 
 #wrapper .container-fluid .header h1 {
     font-size: 70px;
-    color: #fcfcfc;
+    color: #9f1313;
+    margin-right: 220px;
     /* text-decoration: none; */
 }
 
-#wrapper .container-fluid .header a{
+#wrapper .container-fluid .header h1 a{
     text-decoration: none;
     color: #fcfcfc;
 
@@ -61,7 +62,7 @@
 }
 
 .container-fluid .header-content .table-box {
-    background-color: rgb(255, 255, 255,.5);
+    background-color: rgb(255, 255, 255,.3);
     width: 284px;
     height: 407px;
     /* text-align: center; */
@@ -119,12 +120,12 @@
 }
 
 .container-fluid .header-content .table-box-event {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
     color: #fcfcfc;
 }
 
 .container-fluid .header-content .table-box-party {
-    background-color: rgb(236, 65, 86,.5);
+    background-color: rgb(236, 65, 86,.3);
     color: #fcfcfc;
 }
 
