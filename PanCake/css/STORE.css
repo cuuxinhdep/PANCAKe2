@@ -113,3 +113,9 @@
 .invalid {
     border-color: red !important;
 }
+.btn-primary {
+    --bs-btn-bg: black;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-font-size: 20px;
+}
