@@ -108,12 +108,20 @@
     /* margin: 40px 580px; */
     background-color: #F5F4F0;    
 }
+.cauhoi ul{
+    list-style: none;
+    
+}
 .containes{
-    padding-left: 590px;
+    /* align-items: center; */
 }
 .containes h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     ;
+}
+.contacs{
+    text-align: center;
+    align-items: center;
 }
 .bot2{
     text-align: center;
