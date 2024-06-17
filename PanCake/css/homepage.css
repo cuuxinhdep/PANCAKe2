@@ -11,16 +11,20 @@
     min-height: 100%;
 }
 
+.spacer-inner-2 {
+    height: 25px;
+}
+
 #wrapper .container-fluid {
     position: relative;
 }
 
-#wrapper .container-fluid .header h1 {
+/* #wrapper .container-fluid .header h1 {
     font-size: 70px;
     color: #9f1313;
     margin-right: 220px;
     /* text-decoration: none; */
-}
+} */
 
 #wrapper .container-fluid .header h1 a{
     text-decoration: none;
