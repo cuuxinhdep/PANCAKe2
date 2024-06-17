@@ -5,6 +5,13 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
 } */
 
+.check {
+    /* display: flex; */
+    align-items: center;
+    /* text-align: center; */
+    /* margin-right: 450px; */
+    /* width: 1000px; */
+}
 
 .navbar .navbar-nav {
     display: flex;
@@ -108,20 +115,10 @@
     /* margin: 40px 580px; */
     background-color: #F5F4F0;    
 }
-.cauhoi ul{
-    list-style: none;
-    
-}
-.containes{
-    text-align: center;
-}
+
 .containes h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     ;
-}
-.contacs{
-    text-align: center;
-    align-items: center;
 }
 .bot2{
     text-align: center;
@@ -134,9 +131,6 @@
 .col-md-3 a{
     color: black;
     
-}
-.row{
-    padding: 10px;
 }
     
 
