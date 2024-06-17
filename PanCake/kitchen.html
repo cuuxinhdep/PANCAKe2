@@ -9,44 +9,52 @@
     <link rel="stylesheet" href="css/contactus.css">
 </head>
 <body>
-  <nav class="navbar navbar-light shadow navbar-custom bg-custom mb-4 fixed-top" id="navbar">
+  <nav class="navbar navbar-light navbar-expand-lg shadow navbar-custom bg-custom mb-4 fixed-top" id="navbar">
     <div class="container-fluid">
-        <div class="col-md-4">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbarExample-expand-lg" aria-controls="offcanvasNavbarExample-expand-lg">
-                <span class="navbar-toggler-icon" data-bs-target="#offcanvasNavbarExample-expand-lg"></span>
-            </button>
+        <a class="navbar-brand fw-bold" href="homepage.html">PANCAKE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbarExample-expand-lg" aria-controls="offcanvasNavbarExample-expand-lg">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="order-3 d-none d-lg-flex justify-content-end">
+            <a href="#" class="btn btn-custom">BOOK NOW</a>
         </div>
-        <a class="navbar-brand fw-bold col-md-4 text-center" href="homepage.html">PANCAKE</a>
-        <div class="col-md-4 d-flex justify-content-end">
-            <a href="booking.html" class="btn btn-custom">BOOK NOW</a>
-        </div>
-        <div class="offcanvas offcanvas-start bg-custom" data-bs-hideresize="true" tabindex="-1"
-            id="offcanvasNavbarExample-expand-lg" aria-labelledby="offcanvasNavbarExample-expand-lg">
+        <div class="offcanvas offcanvas-start bg-custom" tabindex="-1" id="offcanvasNavbarExample-expand-lg"
+            aria-labelledby="offcanvasNavbarExample-expand-lg">
             <div class="offcanvas-header">
                 <h3 class="offcanvas-title" id="offcanvasLabel" style="color: black;">LINKS</h3>
             </div>
             <div class="offcanvas-body bg-custom">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="./homepage.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Link</a>
+                        <a class="nav-link" href="./Hiring.html">Hiring</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./au-bou.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./STORE.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gift cards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./kitchen.html">Kitchen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Social League</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faq2.html">Faq'S</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a href="./booking.html" class="btn btn-custom w-100">BOOK NOW</a>
                     </li>
                 </ul>
             </div>
@@ -158,19 +166,11 @@
             <div class="venue-select">
               <select name="VENUE" id="venue-event" required="required" aria-required="true">
                   <option value="">SELECT VENUE</option>
-                  <option value="BOS">Boston</option>
-                  <option value="CHI">Chicago</option>
-                  <option value="NYC23">New York Flatiron</option>
-                  <option value="NYMT">New York Midtown</option>
-                  <option value="PHL">Philadelphia</option>
-                  <option value="SF">San Francisco</option>
-                  <option value="SEA">Seattle</option>
-                  <option value="YYK">Toronto</option>
-                  <option value="DC">Washington DC</option>
+                  <option value="HCM">HO CHI MINH CITY</option>
               </select>
           </div>
           <div class="fuction-box color-event color">
-              <form action="">
+              <form action="booking.html">
                   <button class="btn-party color-text" type="submit">RESERVE NOW</button>
               </form>
           </div>
