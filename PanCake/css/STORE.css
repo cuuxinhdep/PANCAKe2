@@ -1,5 +1,5 @@
 .card-text {
-    color: blue;
+    color: black;
 }
 
 .badge--sold-out {
@@ -35,4 +35,15 @@
 .inline-list {
     display: flex;
     text-align: center;
+}
+
+.btn {
+    background: white;
+    border: 5;
+    border-color: black;
+    color: black;
+}
+
+.btn:hover {
+    background: black;
 }
