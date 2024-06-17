@@ -25,6 +25,17 @@
     background-color: rgb(24, 128, 248);
 }
 
+.home-pag button {
+
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: grey;
+}
+
 button:hover {
     font-size: 20px;
 }
