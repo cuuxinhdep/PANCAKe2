@@ -199,7 +199,7 @@ outline: none;
 }
 
 .navbar {
-    background-color: rgb(255, 255, 255,.3);
+    background-color: rgb(255, 255, 255,.5);
 }
 
 .container-fluid .header-content .inner-box {
@@ -537,7 +537,8 @@ outline: none;
 }
 
 .t-color {
-    color: #fcfcfc;
+    color: black;
+    font-weight: 500;
 }
 /* .navbar-light{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
@@ -640,5 +641,5 @@ outline: none;
 }
 
 .pancake {
-    color: #fcfcfc;
+    /* color: #fcfcfc; */
 }
